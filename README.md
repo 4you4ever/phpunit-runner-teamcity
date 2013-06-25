@@ -11,7 +11,7 @@ To add PHPUnit runner for TeamCity as a local, per-project dependency to your pr
 
     {
         "require-dev": {
-            "4you4ever/phpunit-runner-teamcity": "*"
+            "4you4ever/phpunit-runner-teamcity": "dev-master"
         },
         "repositories": [
             {
