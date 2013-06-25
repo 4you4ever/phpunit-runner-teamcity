@@ -20,3 +20,11 @@ To add PHPUnit runner for TeamCity as a local, per-project dependency to your pr
             }
         ],
     }
+
+## Usage
+
+Add new "Command Line" build step to your TeamCity project with script:
+
+```bash
+%teamcity.build.checkoutDir%/vendor/bin/phpunit-tc -c %teamcity.build.checkoutDir%/path/to/config.xml %teamcity.build.checkoutDir%/path/to/tests/dir/
+```
