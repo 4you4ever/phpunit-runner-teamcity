@@ -1,0 +1,28 @@
+{
+    "name": "4you4ever/phpunit-runner-teamcity",
+    "description": "The PHP Unit runner for TeamCity.",
+    "version": "1.0.0",
+    "type": "library",
+    "keywords": [
+        "phpunit",
+        "xunit",
+        "testing",
+        "teamcity"
+    ],
+    "source": {
+        "type": "git",
+        "url": "https://github.com/4you4ever/phpunit-runner-teamcity",
+        "reference": "master"
+    },
+    "support": {
+        "issues": "https://github.com/4you4ever/phpunit-runner-teamcity/issues"
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.3",
+        "phpunit/phpunit": ">=3.6.0"
+    },
+    "bin": [
+        "bin/phpunit-tc"
+    ]
+}
